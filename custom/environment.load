@@ -1,0 +1,21 @@
+# to make Ruby faster
+# # https://gist.github.com/2113359
+set -x RUBY_HEAP_MIN_SLOTS 1000000
+set -x RUBY_GC_HEAP_INIT_SLOTS 1000000
+set -x RUBY_HEAP_SLOTS_INCREMENT 1000000
+set -x RUBY_HEAP_SLOTS_GROWTH_FACTOR 1
+set -x RUBY_GC_MALLOC_LIMIT 1000000000
+
+set -x EDITOR subl
+
+set PATH /usr/local/bin $PATH
+set PATH /usr/local/sbin $PATH
+set PATH $HOME/bin $PATH
+set PATH $HOME/.rbenv/bin $PATH
+set PATH $HOME/.rbenv/shims $PATH
+
+# rbenv
+rbenv rehash >/dev/null ^&1
+
+# heroku
+set PATH /usr/local/heroku/bin $PATH
