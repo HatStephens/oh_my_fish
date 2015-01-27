@@ -1,4 +1,4 @@
-# Oh My Fish!
+# Oh My Fish! (repo for HatStephens)
 
 ### Why?
   Developing on a shell should be a pleasure. Our goal is to help developers that don't want to spend time configuring their own computer to spend time doing what they want.
@@ -25,7 +25,7 @@ If you want to install it manually, keep reading.
 Enabling a new plugin or theme is as easy as it should be. Open your fish configuration file
 `~/.config/fish/config.fish` and specify the theme and the plugins you want to use.
 
-As an example, to enable rails and git plugins add this line `set fish_plugins git rails` 
+As an example, to enable rails and git plugins add this line `set fish_plugins git rails`
 to your configuration file.
 
 ## Customization
