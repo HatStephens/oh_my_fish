@@ -11,11 +11,11 @@ set -x EDITOR subl
 set PATH /usr/local/bin $PATH
 set PATH /usr/local/sbin $PATH
 set PATH $HOME/bin $PATH
-set PATH $HOME/.rbenv/bin $PATH
-set PATH $HOME/.rbenv/shims $PATH
+# set PATH $HOME/.rbenv/bin $PATH
+# set PATH $HOME/.rbenv/shims $PATH
 
 # rbenv
-rbenv rehash >/dev/null ^&1
+# rbenv rehash >/dev/null ^&1
 
 # heroku
 set PATH /usr/local/heroku/bin $PATH
