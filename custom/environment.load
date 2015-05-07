@@ -1,5 +1,6 @@
 # to make Ruby faster
 # # https://gist.github.com/2113359
+set -x DEFERRED_GARBAGE_COLLECTION true
 set -x RUBY_HEAP_MIN_SLOTS 1000000
 set -x RUBY_GC_HEAP_INIT_SLOTS 1000000
 set -x RUBY_HEAP_SLOTS_INCREMENT 1000000
@@ -17,3 +18,8 @@ set PATH /usr/local/heroku/bin $PATH
 
 # default ruby
 chruby ruby-2.2.0
+
+# sage feature server
+set -x FEATURE_SERVER http://localhost:3004/feature_request
+set -x SIGNER_KEY HZXJBnvBdXaW7ghLVWwpxmapQaJai2Lr
+set -x REDIS_URL http://localhost:6379
