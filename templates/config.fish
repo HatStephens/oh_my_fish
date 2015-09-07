@@ -13,3 +13,6 @@ set fish_theme robbyrussell
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+ulimit -n 65536
+ulimit -u 2048
