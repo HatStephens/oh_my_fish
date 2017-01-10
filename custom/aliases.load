@@ -20,3 +20,8 @@ alias ll='ls -hlF'
 alias be='bundle exec'
 alias stevedev='cd ~/dev/steve'
 alias kyandev='cd ~/dev/kyan'
+
+alias wtf='source ~/.oh_my_fish/oh-my-fish.fish'
+
+alias blue_gh='open https://github.com/kyan/blueskyeducation-co-uk'
+alias blue_local='cd ~/dev/kyan/blueskyeducation-co-uk'
